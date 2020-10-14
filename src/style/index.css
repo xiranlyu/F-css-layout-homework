@@ -12,7 +12,48 @@ header {
   align-items: center;
 }
 
-.nav-option {
+.nav_option {
   color: #adb6be;
   font-size: 16px;
+}
+
+main {
+  padding: 15px 30px 15px 30px;
+  display: flex;
+}
+
+.main_left {
+  flex-flow: column;
+  width: 350px;
+  padding-top: 16px;
+}
+
+.about {
+  background-color: #f8f9fa;
+  padding: 20px 10px 20px 10px;
+}
+
+.archives {
+  padding: 20px 10px 20px 10px;
+}
+
+.main_left_title {
+  margin-block-end: 0;
+  font-style: italic;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  color: #a6a6a6;
+  text-align: center;
 }
