@@ -24,8 +24,9 @@ main {
 
 .main_left {
   flex-flow: column;
-  width: 350px;
+  width: 15%;
   padding-top: 16px;
+  padding-right: 20px;
 }
 
 .about {
@@ -48,6 +49,51 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.main_middle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.img {
+  width: 100%;
+}
+
+.article {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  border: #f9f9f9 1px solid;
+  box-shadow: #ccc 0 0 5px 0;
+}
+
+.article2 {
+  margin-left: 15px;
+}
+
+.article_content {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.view_details {
+  color: #3a91ff;
+}
+
+.column_left {
+  width: 50%;
+}
+
+.column_right {
+  width: 50%;
+}
+
+aside {
+  align-self: center;
+  width: 15%;
+  padding-left: 20px;
 }
 
 footer {
